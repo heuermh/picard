@@ -14,7 +14,7 @@ javaSource in Test := baseDirectory.value / "src/tests"
 
 unmanagedResourceDirectories in Test := Seq(baseDirectory.value / "src/scripts", baseDirectory.value / "testdata", baseDirectory.value / "src/tests/scripts")
 
-libraryDependencies += "org.testng" % "testng" % "6.8.8"
+libraryDependencies += "org.testng" % "testng" % "6.8.8" % "test"
 
 testNGSettings
 
